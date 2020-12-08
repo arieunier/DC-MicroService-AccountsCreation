@@ -1,1 +1,1 @@
-accountscreation: export PYTHONPATH=.:./appsrc:./appsrc/libs/; python appsrc/accountscreation.py
+accountscreation: export PYTHONPATH=$PYTHONPATH:.:./appsrc:./appsrc/libs/; python appsrc/accountscreation.py
